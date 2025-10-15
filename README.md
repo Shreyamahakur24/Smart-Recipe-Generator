@@ -23,12 +23,12 @@ The application successfully implements the following core features from the pro
 * **Minimum Data Set:** The backend includes a simple, in-memory JSON database containing **21 recipes** across various cuisines, exceeding the minimum requirement.
 
 ### 4. UI/UX & Technical Requirements
-* [cite_start]**Clean, Intuitive Interface:** The application provides a clear, single-page interface for input and results[cite: 26].
-* [cite_start]**Mobile Responsive Design:** The CSS uses media queries to ensure the layout is optimized for all screen sizes (a required feature)[cite: 27, 38].
-* [cite_start]**Loading States:** A visible loading indicator is displayed during the API call for a better user experience (UX)[cite: 47].
-* [cite_start]**Dark/Light Mode:** A theme toggle allows users to switch between a **Soothing Light Mode** and a **Dark Mode**, demonstrating attention to UX considerations[cite: 43].
-* [cite_start]**Clean Code:** The code is structured and commented for clarity and maintainability[cite: 45].
-* [cite_start]**Basic Error Handling:** Frontend and backend include checks for missing input and server connection failures.
+* **Clean, Intuitive Interface:** The application provides a clear, single-page interface for input and results.
+* **Mobile Responsive Design:** The CSS uses media queries to ensure the layout is optimized for all screen sizes (a required feature).
+* **Loading States:** A visible loading indicator is displayed during the API call for a better user experience (UX).
+* **Dark/Light Mode:** A theme toggle allows users to switch between a **Soothing Light Mode** and a **Dark Mode**, demonstrating attention to UX considerations.
+* **Clean Code:** The code is structured and commented for clarity and maintainability.
+* **Basic Error Handling:** Frontend and backend include checks for missing input and server connection failures.
 
 ---
 
@@ -38,7 +38,7 @@ The application successfully implements the following core features from the pro
 | :--- | :--- | :--- |
 | **Backend** | Python 3, Flask | Lightweight web framework for API routing and business logic. |
 | **API/Data** | Flask-CORS, JSON (in-memory DB) | Handles cross-origin requests; Recipe database stored as Python dictionaries. |
-| **Frontend** | HTML5, CSS3, JavaScript (Vanilla JS) | [cite_start]Focus on clean, production-quality code [cite: 45] without reliance on heavy frameworks. |
+| **Frontend** | HTML5, CSS3, JavaScript (Vanilla JS) | Focus on clean, production-quality code without reliance on heavy frameworks. |
 
 ---
 
